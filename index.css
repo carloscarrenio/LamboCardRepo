@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #17594a;
+  color: #fefae0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-main {
+  border-radius: 0.5rem;
+  background-color: #d3d04f;
+  max-width: 375px;
+  height: 90%;
+}
+
+.container-img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.container-img img {
+  width: 100%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
