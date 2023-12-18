@@ -16,7 +16,7 @@ body {
 
 .container-main {
   border-radius: 0.5rem;
-  background-color: #d3d04f;
+  background-color: #252520;
   max-width: 375px;
   height: 90%;
 }
@@ -35,6 +35,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+  /* border: solid red; */
 }
 
 footer {
